@@ -1,0 +1,1800 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <title>KupimyFakture.pl</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- [if !mso]><!-- -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<![endif]-->
+
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
+      body,
+      table,
+      td,
+      div,
+      p {
+        font-family: Inter, Arial, sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+      p {
+        display: block;
+        margin: 13px 0;
+      }
+    </style>
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG />
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+      <style type="text/css">
+        .mj-outlook-group-fix {
+          width: 100% !important;
+        }
+      </style>
+    <![endif]-->
+
+    <style type="text/css">
+      @media only screen and (min-width: 480px) {
+        .mj-column-per-100 {
+          width: 100% !important;
+          max-width: 100%;
+        }
+        .mj-column-per-29 {
+          width: 29% !important;
+          max-width: 29%;
+        }
+        .mj-column-per-71 {
+          width: 71% !important;
+          max-width: 71%;
+        }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+      .moz-text-html .mj-column-per-29 {
+        width: 29% !important;
+        max-width: 29%;
+      }
+      .moz-text-html .mj-column-per-71 {
+        width: 71% !important;
+        max-width: 71%;
+      }
+    </style>
+
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        table.mj-full-width-mobile {
+          width: 100% !important;
+        }
+        td.mj-full-width-mobile {
+          width: auto !important;
+        }
+
+        .navycta {
+          max-width: 150px !important;
+        }
+      }
+    </style>
+    <style type="text/css"></style>
+  </head>
+  <body style="word-spacing: normal; background-color: #ffffff">
+    <div
+      style="
+        word-break: keep-all;
+        background-color: #ffffff;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        -webkit-hyphens: none;
+        hyphens: none;
+        mso-hyphenate: none;
+      "
+    >
+      <table
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        role="presentation"
+        style="background: #003155; background-color: #003155; width: 100%"
+      >
+        <tbody>
+          <tr>
+            <td
+              style="
+                word-break: keep-all;
+                -moz-hyphens: none;
+                -ms-hyphens: none;
+                -webkit-hyphens: none;
+                hyphens: none;
+                mso-hyphenate: none;
+              "
+            >
+              <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#003155" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+              <div
+                style="
+                  word-break: keep-all;
+                  margin: 0px auto;
+                  max-width: 600px;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+              >
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="width: 100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        style="
+                          word-break: keep-all;
+                          direction: ltr;
+                          font-size: 0px;
+                          padding: 0;
+                          text-align: center;
+                          -moz-hyphens: none;
+                          -ms-hyphens: none;
+                          -webkit-hyphens: none;
+                          hyphens: none;
+                          mso-hyphenate: none;
+                        "
+                        align="center"
+                      >
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                        <div
+                          class="mj-column-per-100 mj-outlook-group-fix"
+                          style="
+                            word-break: keep-all;
+                            font-size: 0px;
+                            text-align: left;
+                            direction: ltr;
+                            display: inline-block;
+                            vertical-align: top;
+                            width: 100%;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  style="
+                                    word-break: keep-all;
+                                    vertical-align: top;
+                                    padding: 0;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                  valign="top"
+                                >
+                                  <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    role="presentation"
+                                    style
+                                    width="100%"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          align="center"
+                                          style="
+                                            font-size: 0px;
+                                            padding: 0;
+                                            word-break: break-word;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                        >
+                                          <p
+                                            style="
+                                              word-break: keep-all;
+                                              border-top: solid 6px #003155;
+                                              font-size: 1px;
+                                              margin: 0px auto;
+                                              width: 100%;
+                                              -moz-hyphens: none;
+                                              -ms-hyphens: none;
+                                              -webkit-hyphens: none;
+                                              hyphens: none;
+                                              mso-hyphenate: none;
+                                            "
+                                          ></p>
+
+                                          <!--[if mso | IE
+                                            ]><table
+                                              align="center"
+                                              border="0"
+                                              cellpadding="0"
+                                              cellspacing="0"
+                                              style="
+                                                border-top: solid 6px #003155;
+                                                font-size: 1px;
+                                                margin: 0px auto;
+                                                width: 600px;
+                                              "
+                                              role="presentation"
+                                              width="600px"
+                                            >
+                                              <tr>
+                                                <td
+                                                  style="
+                                                    height: 0;
+                                                    line-height: 0;
+                                                  "
+                                                >
+                                                  &nbsp;
+                                                </td>
+                                              </tr>
+                                            </table><!
+                                          [endif]-->
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    word-break: keep-all;
+                    font-size: 0px;
+                    text-align: left;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            word-break: keep-all;
+                            vertical-align: top;
+                            padding: 0;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          valign="top"
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  align="center"
+                                  class="altstyle"
+                                  style="
+                                    color: #072044;
+                                    font-family: Inter, Arial, sans-serif;
+                                    text-decoration: none;
+                                    font-size: 0px;
+                                    padding: 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    role="presentation"
+                                    style="
+                                      border-collapse: collapse;
+                                      border-spacing: 0px;
+                                    "
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          style="
+                                            word-break: keep-all;
+                                            width: 600px;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          width="700"
+                                        >
+                                          <img
+                                            alt="Sprzedaj nam Twoją nieopłaconą fakturę!"
+                                            height="auto"
+                                            src="background.jpg"
+                                            style="
+                                              border: 0;
+                                              display: block;
+                                              outline: none;
+                                              text-decoration: none;
+                                              height: auto;
+                                              width: 100%;
+                                              font-size: 13px;
+                                            "
+                                            width="700"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 40px 50px 0px 50px;
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    word-break: keep-all;
+                    font-size: 0px;
+                    text-align: center;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            word-break: keep-all;
+                            vertical-align: top;
+                            padding: 0;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          valign="top"
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  align="left"
+                                  style="
+                                    font-size: 0px;
+                                    padding: 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      word-break: keep-all;
+                                      font-family: Inter, Arial, sans-serif;
+                                      font-size: 22px;
+
+                                      text-align: left;
+                                      color: #072044;
+                                      -moz-hyphens: none;
+                                      -ms-hyphens: none;
+                                      -webkit-hyphens: none;
+                                      hyphens: none;
+                                      mso-hyphenate: none;
+                                    "
+                                  >
+                                    Prowadzisz biznes i mierzysz się z problemem
+                                    <br />
+                                    <strong
+                                      >braku płatności od klientów?</strong
+                                    >
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 20px 50px 0 50px;
+
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    word-break: keep-all;
+                    font-size: 0px;
+                    text-align: left;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            word-break: keep-all;
+                            vertical-align: top;
+                            padding: 0;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          valign="top"
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  align="left"
+                                  class="altstyle"
+                                  style="
+                                    color: #072044;
+                                    font-family: Inter, Arial, sans-serif;
+                                    text-decoration: none;
+                                    font-size: 0px;
+                                    padding: 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    role="presentation"
+                                    style="
+                                      border-collapse: collapse;
+                                      border-spacing: 0px;
+                                    "
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          style="
+                                            word-break: keep-all;
+                                            width: 250px;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          width="700"
+                                        >
+                                          <img
+                                            alt="Poznaj KupimyFakture.pl"
+                                            height="auto"
+                                            src="red-cta.png"
+                                            style="
+                                              border: 0;
+                                              display: block;
+                                              outline: none;
+                                              text-decoration: none;
+                                              height: auto;
+                                              width: 100%;
+                                              font-size: 13px;
+                                            "
+                                            width="200"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 30px 50px;
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    word-break: keep-all;
+                    font-size: 0px;
+                    text-align: center;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            word-break: keep-all;
+                            vertical-align: top;
+                            padding: 0;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          valign="top"
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  align="left"
+                                  style="
+                                    font-size: 0px;
+                                    padding: 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      word-break: keep-all;
+                                      font-family: Inter, Arial, sans-serif;
+                                      font-size: 18px;
+                                      text-align: left;
+                                      color: #072044;
+                                      -moz-hyphens: none;
+                                      -ms-hyphens: none;
+                                      -webkit-hyphens: none;
+                                      hyphens: none;
+                                      mso-hyphenate: none;
+                                    "
+                                  >
+                                    Pomogliśmy już tysiącom przedsiębiorców
+                                    rozwiązać problem braku płatności.
+                                    <br />
+                                    <br />
+                                    Wyceń za darmo swoje wierzytelności i sam
+                                    zdecyduj: <br />
+                                    <span
+                                      style="font-size: 20px; font-weight: bold"
+                                    >
+                                      <span style="color: #e40521"
+                                        >Sprzedać?</span
+                                      >
+                                      Czy windykować?
+                                    </span>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 0 50px;
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    word-break: keep-all;
+                    font-size: 0px;
+                    text-align: left;
+                    direction: ltr;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            border-top: 2px solid #84aecd;
+                            border-bottom: 2px solid #84aecd;
+                            word-break: keep-all;
+                            vertical-align: top;
+                            padding: 0;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          valign="top"
+                        >
+                          <table
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                            role="presentation"
+                            style
+                            width="100%"
+                          >
+                            <tbody>
+                              <tr>
+                                <td
+                                  align="left"
+                                  style="
+                                    font-size: 0px;
+                                    padding: 15px 0 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="100%"
+                                    border="0"
+                                    style="
+                                      color: #072044;
+                                      font-family: Inter, Arial, sans-serif;
+                                      font-size: 15px;
+                                      line-height: 22px;
+                                      table-layout: auto;
+                                      width: 100%;
+                                      border: none;
+                                    "
+                                  >
+                                    <tr>
+                                      <td
+                                        align="left"
+                                        valign="middle"
+                                        style="
+                                          font-size: 20px;
+                                          font-weight: 500;
+                                          color: #072044;
+                                          word-break: keep-all;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                        width="300"
+                                      >
+                                        <strong>Rozwijaj swój biznes </strong
+                                        ><br />z KupimyFakture.pl!
+                                      </td>
+                                      <td
+                                        style="
+                                          word-break: keep-all;
+                                          line-height: 1;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                        align="left"
+                                        valign="middle"
+                                        width="300"
+                                      >
+                                        <img
+                                          src="navy-cta.png"
+                                          width="230"
+                                          class="navycta"
+                                          border="0"
+                                          style="
+                                            color: #072044;
+                                            font-family: Inter, Arial,
+                                              sans-serif;
+                                            text-decoration: none;
+                                            display: block;
+                                            border: 0;
+                                            margin: 0;
+                                            padding: 0;
+                                          "
+                                          alt="Sprawdź, ile zapłacimy"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        colspan="2"
+                                        height="9"
+                                        style="
+                                          word-break: keep-all;
+                                          font-size: 1px;
+                                          line-height: 1px;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                      >
+                                        <span
+                                          style="
+                                            word-break: keep-all;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          >&nbsp;</span
+                                        >
+                                      </td>
+                                    </tr>
+
+                                    <tr>
+                                      <td
+                                        colspan="2"
+                                        height="9"
+                                        style="
+                                          word-break: keep-all;
+                                          font-size: 1px;
+                                          line-height: 1px;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                      >
+                                        <span
+                                          style="
+                                            word-break: keep-all;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          >&nbsp;</span
+                                        >
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td
+                                  align="right"
+                                  style="
+                                    font-size: 0px;
+                                    padding: 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <div
+                                    style="
+                                      word-break: keep-all;
+                                      font-family: Inter, Arial, sans-serif;
+                                      font-size: 15px;
+                                      line-height: 22px;
+                                      text-align: left;
+                                      color: #072044;
+
+                                      -moz-hyphens: none;
+                                      -ms-hyphens: none;
+                                      -webkit-hyphens: none;
+                                      hyphens: none;
+                                      mso-hyphenate: none;
+                                    "
+                                  >
+                                    Zamiast trzymać nieopłacone faktury <br />w
+                                    szufladzie, <strong>sprzedaj je.</strong>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  align="left"
+                                  style="
+                                    font-size: 0px;
+                                    padding: 15px 0 0;
+                                    word-break: break-word;
+                                    -moz-hyphens: none;
+                                    -ms-hyphens: none;
+                                    -webkit-hyphens: none;
+                                    hyphens: none;
+                                    mso-hyphenate: none;
+                                  "
+                                >
+                                  <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="100%"
+                                    border="0"
+                                    style="
+                                      color: #072044;
+                                      font-family: Inter, Arial, sans-serif;
+                                      font-size: 15px;
+                                      line-height: 22px;
+                                      table-layout: auto;
+                                      width: 100%;
+                                      border: none;
+                                    "
+                                  >
+                                    <tr>
+                                      <td
+                                        align="left"
+                                        valign="middle"
+                                        style="
+                                          font-size: 20px;
+                                          font-weight: 500;
+                                          color: #072044;
+                                          word-break: keep-all;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                        width="400"
+                                      >
+                                        <table
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="100%"
+                                          border="0"
+                                          style="
+                                            color: #072044;
+                                            font-family: Inter, Arial,
+                                              sans-serif;
+                                            table-layout: auto;
+                                            width: 100%;
+                                            border: none;
+                                          "
+                                        >
+                                          <tbody>
+                                            <tr>
+                                              <td
+                                                style="
+                                                  word-break: keep-all;
+                                                  line-height: 1;
+                                                  -moz-hyphens: none;
+                                                  -ms-hyphens: none;
+                                                  -webkit-hyphens: none;
+                                                  hyphens: none;
+                                                  mso-hyphenate: none;
+                                                "
+                                                align="left"
+                                                valign="middle"
+                                                width="40"
+                                              >
+                                                <img
+                                                  src="faktura-ikona.png"
+                                                  width="40"
+                                                  class="altstyle"
+                                                  border="0"
+                                                  style="
+                                                    display: block;
+                                                    border: 0;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                  "
+                                                  alt="Sprawdź, ile zapłacimy"
+                                                />
+                                              </td>
+                                              <td
+                                                align="left"
+                                                valign="middle"
+                                                style="
+                                                  font-size: 16px;
+                                                  font-weight: 500;
+                                                  color: #072044;
+                                                  word-break: keep-all;
+                                                  -moz-hyphens: none;
+                                                  -ms-hyphens: none;
+                                                  -webkit-hyphens: none;
+                                                  hyphens: none;
+                                                  mso-hyphenate: none;
+                                                "
+                                                width="200"
+                                              >
+                                                Kupiliśmy już ponad <br />
+                                                <span
+                                                  style="
+                                                    color: #e40520;
+                                                    font-weight: 600;
+                                                  "
+                                                  >1500 faktur</span
+                                                >
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                      <td
+                                        align="left"
+                                        valign="middle"
+                                        style="
+                                          font-size: 20px;
+                                          font-weight: 500;
+                                          color: #072044;
+                                          word-break: keep-all;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                        width="300"
+                                      >
+                                        <table
+                                          cellpadding="0"
+                                          cellspacing="0"
+                                          width="100%"
+                                          border="0"
+                                          style="
+                                            color: #072044;
+                                            font-family: Inter, Arial,
+                                              sans-serif;
+                                            table-layout: auto;
+                                            width: 100%;
+                                            border: none;
+                                          "
+                                        >
+                                          <tbody>
+                                            <tr>
+                                              <td
+                                                style="
+                                                  word-break: keep-all;
+                                                  line-height: 1;
+                                                  -moz-hyphens: none;
+                                                  -ms-hyphens: none;
+                                                  -webkit-hyphens: none;
+                                                  hyphens: none;
+                                                  mso-hyphenate: none;
+                                                "
+                                                align="left"
+                                                valign="middle"
+                                                width="40"
+                                              >
+                                                <img
+                                                  src="portfel-ikona.png"
+                                                  width="40"
+                                                  class="altstyle"
+                                                  border="0"
+                                                  style="
+                                                    display: block;
+                                                    border: 0;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                  "
+                                                  alt="Sprawdź, ile zapłacimy"
+                                                />
+                                              </td>
+                                              <td
+                                                align="left"
+                                                valign="middle"
+                                                style="
+                                                  font-size: 16px;
+                                                  font-weight: 500;
+                                                  color: #072044;
+                                                  word-break: keep-all;
+                                                  -moz-hyphens: none;
+                                                  -ms-hyphens: none;
+                                                  -webkit-hyphens: none;
+                                                  hyphens: none;
+                                                  mso-hyphenate: none;
+                                                "
+                                                width="150"
+                                              >
+                                                O wartości ok.<br />
+                                                <span
+                                                  style="
+                                                    color: #e40520;
+                                                    font-weight: 600;
+                                                  "
+                                                  >11 mln zł</span
+                                                >
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        colspan="2"
+                                        height="9"
+                                        style="
+                                          word-break: keep-all;
+                                          font-size: 1px;
+                                          line-height: 1px;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                      >
+                                        <span
+                                          style="
+                                            word-break: keep-all;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          >&nbsp;</span
+                                        >
+                                      </td>
+                                    </tr>
+
+                                    <tr>
+                                      <td
+                                        colspan="2"
+                                        height="9"
+                                        style="
+                                          word-break: keep-all;
+                                          font-size: 1px;
+                                          line-height: 1px;
+                                          -moz-hyphens: none;
+                                          -ms-hyphens: none;
+                                          -webkit-hyphens: none;
+                                          hyphens: none;
+                                          mso-hyphenate: none;
+                                        "
+                                      >
+                                        <span
+                                          style="
+                                            word-break: keep-all;
+                                            -moz-hyphens: none;
+                                            -ms-hyphens: none;
+                                            -webkit-hyphens: none;
+                                            hyphens: none;
+                                            mso-hyphenate: none;
+                                          "
+                                          >&nbsp;</span
+                                        >
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+      <div
+        style="
+          word-break: keep-all;
+          margin: 0px auto;
+          max-width: 600px;
+          -moz-hyphens: none;
+          -ms-hyphens: none;
+          -webkit-hyphens: none;
+          hyphens: none;
+          mso-hyphenate: none;
+        "
+      >
+        <table
+          align="center"
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          role="presentation"
+          style="width: 100%"
+        >
+          <tbody>
+            <tr>
+              <td
+                style="
+                  word-break: keep-all;
+                  direction: ltr;
+                  font-size: 0px;
+                  padding: 30px 20px;
+                  text-align: center;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  -webkit-hyphens: none;
+                  hyphens: none;
+                  mso-hyphenate: none;
+                "
+                align="center"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+                <div
+                  style="
+                    word-break: keep-all;
+                    margin: 0px auto;
+                    max-width: 600px;
+                    -moz-hyphens: none;
+                    -ms-hyphens: none;
+                    -webkit-hyphens: none;
+                    hyphens: none;
+                    mso-hyphenate: none;
+                  "
+                >
+                  <table
+                    align="left"
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    style="width: 100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="
+                            word-break: keep-all;
+                            direction: ltr;
+                            font-size: 0px;
+                            padding: 0 30px;
+                            text-align: left;
+                            -moz-hyphens: none;
+                            -ms-hyphens: none;
+                            -webkit-hyphens: none;
+                            hyphens: none;
+                            mso-hyphenate: none;
+                          "
+                          align="left"
+                        >
+                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:162.4px;" ><![endif]-->
+
+                          <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:397.6px;" ><![endif]-->
+
+                          <div
+                            class="mj-column-per-71 mj-outlook-group-fix"
+                            style="
+                              word-break: keep-all;
+                              font-size: 0px;
+                              text-align: left;
+                              direction: ltr;
+                              display: inline-block;
+                              vertical-align: middle;
+                              width: 100%;
+                              -moz-hyphens: none;
+                              -ms-hyphens: none;
+                              -webkit-hyphens: none;
+                              hyphens: none;
+                              mso-hyphenate: none;
+                            "
+                          >
+                            <table
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              role="presentation"
+                              width="100%"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="
+                                      word-break: keep-all;
+                                      vertical-align: middle;
+                                      padding: 10px 0;
+                                      -moz-hyphens: none;
+                                      -ms-hyphens: none;
+                                      -webkit-hyphens: none;
+                                      hyphens: none;
+                                      mso-hyphenate: none;
+                                    "
+                                    valign="middle"
+                                  >
+                                    <table
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      role="presentation"
+                                      style
+                                      width="100%"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              font-size: 0px;
+                                              padding: 0;
+                                              word-break: break-word;
+                                              -moz-hyphens: none;
+                                              -ms-hyphens: none;
+                                              -webkit-hyphens: none;
+                                              hyphens: none;
+                                              mso-hyphenate: none;
+                                            "
+                                          >
+                                            <div
+                                              style="
+                                                word-break: keep-all;
+                                                font-family: Inter, Arial,
+                                                  sans-serif;
+                                                font-size: 18px;
+                                                line-height: 20px;
+                                                text-align: left;
+                                                color: #072044;
+                                                -moz-hyphens: none;
+                                                -ms-hyphens: none;
+                                                -webkit-hyphens: none;
+                                                hyphens: none;
+                                                mso-hyphenate: none;
+                                              "
+                                            >
+                                              Partner strategiczny:
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+                          <div
+                            class="mj-column-per-29 mj-outlook-group-fix"
+                            style="
+                              word-break: keep-all;
+                              font-size: 0px;
+                              text-align: left;
+                              direction: ltr;
+                              display: inline-block;
+                              vertical-align: middle;
+                              width: 100%;
+                              -moz-hyphens: none;
+                              -ms-hyphens: none;
+                              -webkit-hyphens: none;
+                              hyphens: none;
+                              mso-hyphenate: none;
+                            "
+                          >
+                            <table
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              role="presentation"
+                              width="100%"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="
+                                      word-break: keep-all;
+                                      vertical-align: middle;
+                                      padding: 10px 0;
+                                      -moz-hyphens: none;
+                                      -ms-hyphens: none;
+                                      -webkit-hyphens: none;
+                                      hyphens: none;
+                                      mso-hyphenate: none;
+                                    "
+                                    valign="middle"
+                                  >
+                                    <table
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      role="presentation"
+                                      style
+                                      width="100%"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              font-size: 0px;
+                                              word-break: break-word;
+                                              -moz-hyphens: none;
+                                              -ms-hyphens: none;
+                                              -webkit-hyphens: none;
+                                              hyphens: none;
+                                              mso-hyphenate: none;
+                                            "
+                                          >
+                                            <table
+                                              border="0"
+                                              cellpadding="0"
+                                              cellspacing="0"
+                                              role="presentation"
+                                              style="
+                                                border-collapse: collapse;
+                                                border-spacing: 0px;
+                                              "
+                                            >
+                                              <tbody>
+                                                <tr>
+                                                  <td
+                                                    style="
+                                                      word-break: keep-all;
+                                                      width: 200px;
+                                                      -moz-hyphens: none;
+                                                      -ms-hyphens: none;
+                                                      -webkit-hyphens: none;
+                                                      hyphens: none;
+                                                      mso-hyphenate: none;
+                                                    "
+                                                    width="200"
+                                                  >
+                                                    <img
+                                                      height="auto"
+                                                      src="footer-logo.png"
+                                                      style="
+                                                        border: 0;
+                                                        display: block;
+                                                        outline: none;
+                                                        text-decoration: none;
+                                                        height: auto;
+                                                        width: 100%;
+                                                        font-size: 13px;
+                                                      "
+                                                      width="200"
+                                                    />
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+                          <!--[if mso | IE]></td></tr></table><![endif]-->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    </div>
+  </body>
+</html>
